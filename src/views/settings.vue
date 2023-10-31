@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import NotificationIcon from "../components/icons/NotificationIcon.vue";
 import InputSwitch from "../components/InputSwitch.vue";
+import tiapHariIcon from "../assets/tiaphari.svg";
 </script>
 
 <template>
@@ -9,7 +10,7 @@ import InputSwitch from "../components/InputSwitch.vue";
       class="bg-gradient-to-br from-primary-400 to-primary-500 h-[440px] flex flex-col items-center justify-center gap-10"
     >
       <div class="header-brand flex flex-col items-center">
-        <img class="w-48 h-48" src="tiaphari.svg" />
+        <img class="w-48 h-48" :src="tiapHariIcon" />
         <div class="text-sm text-white">Version 1.0.0</div>
       </div>
 
